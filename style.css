@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #0b1522;
+    color: white;
+    font-family: 'Candara', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimized;
+    
+}
+
+
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(VideoProExpert.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1{
+    margin: 0;
+}
+
+.mainText{
+    position: absolute;
+    width: 1400px;
+    top:42%;
+    left: 17%;
+    color: white;
+    font-size: 100%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;  
+
+}
+
+
+
+.bttn, .bttn:link, .bttn:visited{
+    border-radius: 4px;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    transition: background-color .5s;
+   
+}
+
+
+
+
+
+
+.bttn-one, .bttn-one:link, .bttn-one:visited{
+    background-color: #273b84;
+   
+}
+
+.bttn-two, .bttn-two:link, .bttn-two:visited{
+    border: 2px solid #273b84;
+}
+
+.bttn-one:hover, .bttn-one:active{
+    background-color: #273b84;
+   
+   
+}
+
+.bttn-two:hover, .bttn-two:active{
+    background-color: #273b84;
+}
+
+
+
+
+
+
+
+
+
+.logo{
+    height: 100px;
+    float:left;
+    margin-top: 20px;
+    margin-left:10px;
+}
+
+
+
+
+
+
+
+
+.mainNav{
+float:right;
+    list-style: none;
+    margin-top: 60px;
+    margin-right: 25px;
+}
+
+.mainNav li{
+    display: inline-block;
+    margin-left:40px;
+}
+.mainNav li a, .mainNav li a:link, .mainNav li a:visited{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.mainNav li a:hover, .mainNav li a:active{
+    background: #60bb46;
+    color:white;
+   transition: background-color .5s;
+}
+
+.button {
+  text-decoration: none;
+  color: #60bb46;
+  background: #60bb46;
+  padding: 15px 40px;
+  border-radius: 4px;
+  font-weight: normal;
+  transition: all 0.5s ease-in-out;
+}
+
+
+.glow-button:hover {
+  color: #60bb46;
+  transition-duration: 1s;
+}
+
+
+.alien {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  height: auto;
+}
+
+
+
+
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 22px 36px;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 22px 36px;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+
+
+.feature{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+
+
+
+
+.seccion-albums{
+    
+    padding 0;
+}
+
+.albums{
+    
+    list-style: none;
+    width: 100%;
+}
+
+.albums li{
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+
+.foto {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.foto img{
+    opacity: 0.7;
+    width: 100%;
+    transform: scale (1.5);    
+    transition:  opacity .5s, transform .5s;
+}
+
+.foto img:hover{
+    transform: scale(1.05);
+    opacity: 1;
+    
+}
+
+
+
+.socialm{
+     text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
+.container {
+  padding: 20px;
+  background-color: #60bb46;
+}
+
+
+input[type=text], input[type=submit] {
+  width: 80%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #273b84;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
