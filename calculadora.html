@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula tu Presupuesto</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="budget-planner">
+        <h1>Calcula tu Presupuesto</h1>
+        <form>
+            <div class="input-group">
+                <label for="income">Ingreso:</label>
+                <input type="number" id="income" placeholder="Introduce tu ingreso" required>
+            </div>
+            <div class="input-group">
+                <label for="expenses">Gastos:</label>
+                <input type="number" id="expenses" placeholder="Introduce tus gastos" required>
+            </div>
+            <div class="input-group">
+                <label for="savings">Ahorros:</label>
+                <input type="number" id="savings" placeholder="Introduce tus ahorros" required>
+            </div>
+            <button type="button" onclick="calculateBudget()">Calcula tu Presupuesto</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
