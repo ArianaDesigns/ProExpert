@@ -4,10 +4,10 @@ function calculateBudget() {
     var savings = parseFloat(document.getElementById('savings').value);
 
     if (isNaN(income) || isNaN(expenses) || isNaN(savings)) {
-        document.getElementById('result').innerHTML = "Please enter valid numbers for income, expenses, and savings.";
+        document.getElementById('result').innerHTML = "Por favor, introduce números válidos";
         return;
     }
 
     var budget = income - expenses - savings;
-    document.getElementById('result').innerHTML = "Your budget is: $" + budget.toFixed(2);
+    document.getElementById('result').innerHTML = "Tu Presupuesto es: $" + budget.toFixed(2);
 }
