@@ -6,15 +6,6 @@ body {
     color: #fff;
 }
 
-.button {
-  text-decoration: none;
-  color: #60bb46;
-  background: #60bb46;
-  padding: 15px 40px;
-  border-radius: 4px;
-  font-weight: normal;
-  transition: all 0.5s ease-in-out;
-}
 
 .budget-planner {
     max-width: 600px;
