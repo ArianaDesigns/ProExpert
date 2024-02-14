@@ -69,25 +69,3 @@ button:hover {
     font-weight: bold;
 }
 
-
-
-.calculadora-btn {
-  background-color: #4CAF50; /* Color de fondo */
-  border: none;
-  color: white; /* Color del texto */
-  padding: 15px 32px; /* Espaciado interno (vertical, horizontal) */
-  text-align: center; /* Alineación del texto */
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px; /* Tamaño del texto */
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 8px; /* Bordes redondeados */
-  border: 2px solid #4CAF50; /* Borde */
-  transition-duration: 0.4s; /* Duración de la transición */
-}
-
-.calculadora-btn:hover {
-  background-color: white;
-  color: #4CAF50;
-}
